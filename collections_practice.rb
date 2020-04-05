@@ -43,11 +43,7 @@ end
 
 def add_s(array)
   array.each do |n|
-    if n = [1]
-      array
-    else
-      "s" << n 
-    end
+ 
   end
   
 
