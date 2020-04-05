@@ -41,6 +41,15 @@ def sum_array(array)
   array.inject(0) { |n, x| n + x }
 end
 
+def add_s(array)
+  array.do |n|
+    if n = [1]
+      array
+    else
+      "s" << n 
+    end
+  end
+  
 
 
 
