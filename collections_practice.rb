@@ -42,7 +42,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.do |n|
+  array.each do |n|
     if n = [1]
       array
     else
