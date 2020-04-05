@@ -42,15 +42,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  n = 0 
-  
- 
-  end
-  def add_s(array)
-  i = 0
-  while i < array.size
-    if (i != 1)
-      array[i] << "s"
+  n = 0
+  while n < array.size
+    if n != 1
+      array[n] << "s"
     end
     i += 1
   end
