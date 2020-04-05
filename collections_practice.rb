@@ -30,4 +30,7 @@ def kesha_maker(array)
     n[2] = "$"
   end
 end
+
+def find_a
+  
     
